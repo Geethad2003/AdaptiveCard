@@ -1,0 +1,22 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.6",
+    "body": [
+        {
+            "type": "Input.ChoiceSet",
+            "label": "New Input.ChoiceSet",
+            "choices": [
+                {
+                    "title": "Choice 1",
+                    "value": "value1"
+                },
+                {
+                    "title": "Choice 2",
+                    "value": "value2"
+                }
+            ],
+            "placeholder": "Placeholder text"
+        }
+    ]
+}
